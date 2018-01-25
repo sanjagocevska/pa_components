@@ -1,0 +1,55 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+build
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+.meteor
+.meteor/local
+
+# IDEs and editors
+/.idea
+**/*.idea
+**/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.iml
+
+# IDE - VSCode
+/.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.sass-cache
+*.scssc
+*.css.map
+connect.lock
+coverage
+libpeerconnection.log
+npm-debug.log
+testem.log
+npm-debug.log
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+~*.*
+
+# Unit Tests
+**/jasmine-*.xml
